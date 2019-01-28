@@ -1,0 +1,23 @@
+<?xml version="1.0"
+ encoding="UTF-8"?>
+
+<!DOCTYPE 
+suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="American Golf Test Automation Test Suite">
+
+
+
+
+
+	<test name="Test Automation Regression">
+
+		<classes>
+
+			<class name="com.qa.tests.CartPageTest"></class>
+
+		</classes>
+
+	</test>
+
+</suite>

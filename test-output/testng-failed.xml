@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [American Golf Test Automation Test Suite]">
+  <test name="Test Automation Regression">
+    <classes>
+      <class name="com.qa.tests.CartPageTest"/>
+    </classes>
+  </test> <!-- Test Automation Regression -->
+  <test name="Test Automation Regression(failed)">
+    <classes>
+      <class name="com.qa.tests.CartPageTest">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="endExtent"/>
+        </methods>
+      </class> <!-- com.qa.tests.CartPageTest -->
+    </classes>
+  </test> <!-- Test Automation Regression(failed) -->
+</suite> <!-- Failed suite [American Golf Test Automation Test Suite] -->
